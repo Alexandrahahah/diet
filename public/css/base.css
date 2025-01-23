@@ -1,0 +1,568 @@
+
+body{
+    box-sizing: border-box;
+   
+ }
+ header{
+     margin-bottom: -20px;
+ }
+ main{
+     margin: auto;
+     width: 100%;
+    padding-top: 20px;
+ }
+ footer{
+     background-color: rgb(68, 68, 161);
+     height: 100px;
+ }
+ h1{
+     padding-top: 200px;
+     margin-left: 400px;
+     font-size: 60px;
+     font-family: 'Quicksand', sans-serif;
+ }
+ .h2_head{
+    padding-top: 20px;
+    margin-left: 400px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+ h2{
+     font-size: 40px;
+     font-family: 'Quicksand', sans-serif;
+ }
+ h3{
+     font-size: 22px;
+ }
+ h5{
+     font-size: 19px;
+     font-weight: bolder;
+     line-height: 20px;
+ }
+ p, a, .btn{
+     font-family: 'Quicksand', sans-serif;  
+     text-decoration: none;
+ 
+ }
+ .a_logo{
+    margin-right: 80px;
+    margin-left: -100px;
+  
+   
+}
+.textplus{
+    margin-bottom: 64px;
+}
+.a_header{
+   
+    font-size: 16px;
+}
+ 
+ /*-------HEADER-------*/
+ 
+ .banniere_header {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.432)), 
+    url(../img/cerisePlonge.jpg); /* Ajout d'une transparence */
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     height: 100vh;
+     width: 100%;
+     margin-bottom: 50px;
+     padding-top: 50px;
+ }
+
+ .banniere_header2 {
+    background: linear-gradient(rgba(255, 255, 255, 0.39), rgba(255, 255, 255, 0.952)), 
+    url(../img/bonbons.jpg); /* Ajout d'une transparence */
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     height: 20vh;
+     width: 100%;
+     margin-bottom: 50px;
+     padding-top: 50px;
+ }
+
+ .banniere_header3 {
+    background: linear-gradient(rgba(255, 255, 255, 0.534), rgb(255, 255, 255)), 
+    url(../img/fraises.jpg); /* Ajout d'une transparence */
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     height: 20vh;
+     width: 100%;
+     margin-bottom: 50px;
+     padding-top: 50px;
+ }
+
+ .banniere_header4 {
+    background: linear-gradient(rgba(255, 255, 255, 0.219), rgb(255, 255, 255)), 
+    url(../img/pain.jpg); /* Ajout d'une transparence */
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     height: 20vh;
+     width: 100%;
+     margin-bottom: 50px;
+     padding-top: 50px;
+ }
+ 
+ 
+ /*-------SECTION 1-------*/
+
+ .section_mutuelle {
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(rgba(255, 255, 255, 0.815), rgba(255, 255, 255, 0.733)), 
+                url(../img/mutuelle.jpg); /* Ajout d'une transparence */
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+   margin-top: 0px;
+   margin-bottom: 200px;
+   
+}
+
+ 
+ .section_1_apropos, .section_2_cabinets , .section_5_contact {
+     width: 80%;
+     margin: auto;
+     /* background-color: rgb(218, 185, 241); */
+    box-shadow: 3px 3px 10px rgba(137, 137, 139, 0.5); 
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ 
+.section_2_consultations {
+    width: 80%;
+    margin: auto;
+    /* background-color: rgb(218, 185, 241); */
+   box-shadow: 3px 3px 10px rgba(137, 137, 139, 0.5); 
+   margin-top: 150px;
+   margin-bottom: 150px;
+}
+ /*-------SECTION 2-----*/
+ 
+ 
+ /*----SECTION 3----*/
+ /* .card-body{
+     height: 30px;
+ } */
+ .card-title_small{
+   margin-top: -2px;
+   font-size: 11px;
+   font-weight: bolder;
+ }
+ 
+
+ 
+ .banniere{
+     background: url(../img/background1.png);
+    height: 300px;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+ .h5_section_2{
+     line-height: 30px;
+     color: rgb(50, 50, 119);
+     font-weight: 650;
+ }
+ 
+ /*------Section 4------*/
+ .vertical-line{
+     border-left: 1px solid #000;
+     display: inline;
+     height: 60px;
+     left: 50%;
+     margin: 0 50%;
+ }
+ 
+ /*---------Section 5------*/
+ /* .section_5_contact{
+     margin: auto;
+     height: 200px;
+     margin-bottom: 40px;
+     padding: 10px;
+ } */
+
+ .section_contact{
+    margin: auto;
+   width: 70%;
+    margin-bottom: 40px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(183, 183, 223, 0.5); 
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+}
+
+.section_rdv{
+    margin: auto;
+   width: 80%;
+    margin-bottom: 40px;
+    padding: 10px;
+   
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+}
+.section_contact_home{
+    background-color: rgb(222, 120, 202);
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+ #back-to-top{
+     position: fixed;
+     bottom: 40px;
+     right: 20px;
+     font-size: 25px;
+     display: none;
+     color: black;
+ }
+ 
+ /*-----FOOTER-----*/
+ 
+ .a_footer{
+ text-decoration: none;
+ color: black;
+ }
+ 
+ /*----HOVER---*/
+ /* .a_header:hover{
+ color: rgb(133, 20, 20);
+ font-weight: bolder;
+ transition-duration: 2s;
+ } */
+ 
+
+ 
+ 
+ /*-----------------------MEDIA QUERRIES-----------------------*/
+ 
+ 
+ @media (max-width: 768px){/*--md <=768px*/
+     h1{
+         padding: 20px;
+         margin-top: 20px;
+         font-size: 35px;
+         font-weight: bolder;
+ 
+     }
+ 
+     h2{
+         font-size: 30px;
+         text-align: center;
+         padding: 0%;
+         margin: 0%;
+    }
+     .banniere_header{
+         height: 50vh;
+     }
+ 
+    
+ 
+     .card-group{
+         display: flex;
+         flex-direction: column;
+          justify-content: center;
+         margin: auto;
+         align-items: center;
+     }
+ 
+     .card-img-top{
+         align-items: center;
+         justify-content: center;
+         margin: auto;
+     }
+ 
+     .vertical-line{
+         transform: rotate(90deg);
+     }
+ }
+ 
+ 
+     
+ @media (max-width: 420px){/*--md <=420px*/
+     
+     h2{
+         font-size: 23px;
+         text-align: center;
+         padding: 0%;
+         margin: 0%;
+     }
+ 
+     .section_5_contact{
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          flex-direction: column;
+          width: 100%;
+          height: auto;
+          font-weight: bolder;
+          background-color: white;
+          box-shadow: none;
+          margin: 0%;
+          line-height: 40px;
+     }
+ 
+     h2{
+         font-weight: bolder;
+     }
+ 
+    .btn{
+      background-color: darkgray;
+      color: black;
+    }
+
+    
+
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size :4.375rem;
+}
+
+h2{
+    font-size: 2.5em;
+    font-family: 'Pinyon Script', cursive;
+    color: goldenrod;
+    
+}
+
+h3{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+   
+}
+
+h5{
+    font-family: 'Pinyon Script', cursive;
+    color: goldenrod;
+    font-size: 1.5em;
+     
+}
+
+a{
+    font-size: smaller;
+    text-decoration: none;
+}
+
+nav{
+    color: white;  
+}
+
+main, .main_2{
+    width: 75%;
+    margin: auto;
+}
+
+
+
+
+/*-----HEADER-----*/
+
+
+/* .a_header{
+    transition: all;
+    transition-duration: 0.3s;
+    transition:ease; 
+    text-decoration: underline;
+} */
+
+.head_2{
+    margin-top: 100px;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 3.75rem;
+    color: goldenrod;
+}
+
+.head_3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1,5rem;
+}
+
+
+
+.banniere_header {
+    background: url(img/eggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 80vh;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+/*-----MAIN-----*/
+
+
+.section_bbb {
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(rgba(255, 255, 255, 0.815), rgba(255, 255, 255, 0.733)), 
+                url(../img/mutuelle.jpg); /* Ajout d'une transparence */
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+   margin-top: 0px;
+   margin-bottom: 200px;
+   
+}
+
+.section_mutuelle2 {
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(rgba(255, 255, 255, 0.815), rgba(255, 255, 255, 0.733)), 
+                url(../img/mutuelle.jpg); /* Ajout d'une transparence */
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+   margin-top: 0px;
+   margin-bottom: 200px;
+   
+}
+
+.background_image_2{
+    background: url(img/oranges.jpg);
+    border: 5px solid red; /* Pour tester */
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 60%;
+    height: 100vh; /* Ajoutez une hauteur explicite */
+}
+
+.gold_border1{
+    background:fixed;
+    outline-offset: 15px;
+    outline: 1px solid goldenrod;
+    position: absolute;
+    height: 270px;
+    width: 215px;
+    position: absolute;
+}
+
+.gold_border2{
+    
+    outline-offset: 15px;
+    outline: 1px solid goldenrod;
+  
+    position: absolute;
+    height: 270px;
+    width: 215px;
+}
+
+/*----section 2-----*/
+
+.menu{
+    width: 600px;
+    margin-top: 20px;
+}
+
+/*----section 3----*/
+
+.section_3_carre{
+  padding-top: 50px;
+   margin: auto;
+    width: 80%;
+    
+}
+
+.img_carre{
+    width: 250px;
+}
+
+/*---section 5---*/
+
+.banniere{
+    background: url(img/reservation.jpg);
+    filter: brightness(80%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 70vh;
+    width: auto;
+    margin-bottom: 20px; 
+    margin-top: -15px;
+
+}
+
+.btn_reservation{
+    background-color: goldenrod;
+    padding: 6px 40px;
+    font-size: smaller;
+  
+   
+}
+
+.background_image_3{
+    background: url(img/news-bg.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 100%;
+}
+
+.section_6_recipes{
+    padding-bottom: 40px;
+}
+
+iframe{
+   width: 100%;
+    margin: auto;
+    padding: -50px;
+}
+
+footer{
+    background-color: darkslategrey;
+    opacity: 50%;
+    color: white ;
+    height: 60vh;
+    padding-bottom: 15px;
+    margin-top: -5px;
+
+}
+
+.background_image_3{
+    background: url(img/news-bg.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 100%;
+}
+
+.background_image_4{
+    background: url(img/splash.png);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 60vh;
+    padding-bottom: 15px;
+    margin-top: -5px;
+}
+
+
+li{
+    font-size: smaller;
+    line-height: 2;
+}
+
+hr{
+    size: 20px;
+    color: rgb(71, 55, 12);
+    width: 20px;
+}
+
+
+
+ }
+ 
+ 
